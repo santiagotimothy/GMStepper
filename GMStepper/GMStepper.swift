@@ -308,7 +308,7 @@ import UIKit
         NotificationCenter.default.addObserver(self, selector: #selector(GMStepper.reset), name: UIApplication.willResignActiveNotification, object: nil)
     }
     
-    func hideButtons() {
+    public func hideButtons() {
         buttonsHidden = true
         leftButton.isHidden = true
         rightButton.isHidden = true
